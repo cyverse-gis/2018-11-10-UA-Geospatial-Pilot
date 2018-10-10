@@ -46,7 +46,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
+<h4> This is the website for the first pilot workshop of [The Carpentries Geospatial Lessons in R](https://datacarpentry.org/geospatial-workshop/).
+
 If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
 <a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
 and our administrator may contact you if we need any extra information.</h4>
@@ -56,8 +57,8 @@ and our administrator may contact you if we need any extra information.</h4>
 {% comment %}
   INTRODUCTION
 
-  Edit the general explanatory paragraph below if you want to change
-  the pitch.
+In this pilot workshop we're going to be teaching fundamentals of using R for geospatial analysis, using material from the 
+Carpentries.
 {% endcomment %}
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
@@ -70,8 +71,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% comment %}
   AUDIENCE
 
-  Explain who your audience is.  (In particular, tell readers if the
-  workshop is only open to people from a particular institution.
+  We are looking for early career scientists graduate students and advanced undergraduates who expect to use R in a geospatial context in their day-to-day research.  
 {% endcomment %}
 {% if page.carpentry == "swc" %}
   {% include sc/who.html %}
