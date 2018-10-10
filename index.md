@@ -48,11 +48,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h4> This is the website for the University of Arizona's pilot workshop of 
 <a href="https://datacarpentry.org/geospatial-workshop/">The Carpentries Geospatial Lessons in R</a>
-The workshop is intended to introduce users to the fundamentals of GIS in R.
+The workshop is intended to introduce users to the fundamentals of GIS in R.</h4>
 
-</h4>
-
-	<h2 id="general">General Information</h2>
+<h2 id="general">General Information</h2>
 
 {% comment %}
   INTRODUCTION
